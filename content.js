@@ -8,10 +8,8 @@ function htmlTableToTable(tableHTML) {
 	let PesVerifier = "";
 
 	if (document.querySelector('div.table-responsive#studentAttendanceSemester')) {
-		console.log("The element exists.");
 		PesVerifier = "true";
 	  } else {
-		console.log("The element does not exist.");
 		PesVerifier = "false";
 	}
 
@@ -44,7 +42,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 		let data = [];
 
 		if (tables.length === 0) {
-			console.log("No tables available on this page.");
 			// data.push({ PesVerifier: "false" });
 			chrome.runtime.sendMessage({ type: "tableData", data: data });
 			return;
@@ -63,7 +60,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	
 		} 
 		else {
-			console.log("Cannot find the element.");
 			chrome.runtime.sendMessage({ type: "tableData", data: data });
 
 		}
