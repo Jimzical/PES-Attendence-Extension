@@ -23,5 +23,5 @@ This is a chrome extension that can be used to calculate attendence on [Pesuacad
 - Before
 - ![Screenshot 1](https://github.com/Jimzical/PES-Attendence-Extension/blob/media/actual.png?raw=true)
 - After
-- ![Screenshot 2](https://github.com/Jimzical/PES-Attendence-Extension/blob/media/done.png?raw=true
+- ![Screenshot 2](https://github.com/Jimzical/PES-Attendence-Extension/blob/media/done.png?raw=true)
 
