@@ -3,11 +3,19 @@
     "name": "PES Attendence Calculator",
     "version": "1.0",
     "description": "This extension calculates the attendence percentage of a student in PES University",
+    "default_icon": {
+      "32": "Media/android-chrome-512x512.png",
+      "48": "Media/android-chrome-512x512.png",
+      "16": "Media/android-chrome-512x512.png"
+    },
     "permissions": [
       "activeTab"
     ],
     "browser_action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "Media/android-chrome-512x512.png"
+      }
     },
     "content_scripts": [
       {
