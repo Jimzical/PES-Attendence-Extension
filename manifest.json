@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "PES Attendence Calculator",
+    "version": "1.0",
+    "description": "This extension calculates the attendence percentage of a student in PES University",
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
