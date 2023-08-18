@@ -10,6 +10,9 @@ This is a chrome extension that can be used to calculate attendence on [Pesuacad
     ```
 - Open chrome and go to `chrome://extensions/`
 - Enable developer mode
+- Drag and drop the cloned repository into the chrome window (Don't delete the folder afterwards)
+    <br/>
+    OR
 - Click on `Load unpacked` and select the cloned repository
 
 ## Usage
