@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <thead>
                 <tr>
                 <th class="text-center">Course Name</th>
+                <th class="text-center">Classes</th>
                 <th class="text-center">Status</th>
                 </tr>
                 </thead>
@@ -67,9 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
         html += `
                 <tr>
                 <th scope="row" >${item.CourseName}</th>
+                <td>${item.AttendedClasses}/${item.TotalClasses}</td>
                 <td>${message}</td>
                 </tr>
-
                 `;
       });
       
